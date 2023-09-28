@@ -92,6 +92,8 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero sectioin */
@@ -200,6 +202,9 @@ main {
 #photos {
     line-height: 0;
 }
+
+
+
 
 /* Footer */
 #social-networks {
