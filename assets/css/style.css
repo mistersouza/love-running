@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* Geral styles */
+/* General styles */
 
 body {
     min-height: 100vh;
@@ -50,13 +50,13 @@ header a {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     list-style-type: none;
     text-transform: capitalize;
 }
 
 #menu>li {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 .active {
@@ -96,7 +96,7 @@ main {
     flex-direction: column;
 }
 
-/* Hero sectioin */
+/* Hero section */
 #hero {
     height: 600px;
     width: 100%;
@@ -206,9 +206,11 @@ main {
 /* Sign up section */
 
 #signup {
-    background: url('../images/signup-image.webp') 75% / cover;
-    color: #fff;
+    background: url('../images/signup-image.webp');
+    background-size: cover;
+    background-position: 75%;
     padding: 20px 10px 0 10px;
+    color: #fff;
     flex-grow: 1;
 }
 
@@ -217,20 +219,20 @@ main {
     padding: 30px;
 }
 
-#signup-form h2 {
+#signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
 
 .text-input {
-    width: 100%;
     background-color: transparent;
     color: #fafafa;
-    padding: 0 5px;
-    line-height: 25px;
-    border: 1px solid #fafafa;
-    border-radius: 3px;
+    width: 100%;
+    height: 25px;
     margin: 5px 0 20px 0;
+    padding: 0 5px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 #radio-buttons {
@@ -241,12 +243,12 @@ main {
 }
 
 .join-button {
-    color: #fafafa;
-    background-color: #454b1b;
+    margin-top: 20px;
+    border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    border-radius: 2px;
-    margin-top: 20px;
+    background-color: #454b1b;
+    color: #fafafa;
 }
 
 
